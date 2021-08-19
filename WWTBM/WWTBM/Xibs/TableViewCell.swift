@@ -38,7 +38,7 @@ class TableViewCell: UITableViewCell {
             COALabel.text = String(COA)
         }
         if let Time = Time {
-            TimeLabel.text = String(Time)
+            TimeLabel.text = "\(String(Time)) Секунд"
         }
     }
 }

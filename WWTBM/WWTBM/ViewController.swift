@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
+
     @IBOutlet weak var newGame: UIButton!
     @IBOutlet weak var getResults: UIButton!
     override func viewDidLoad() {

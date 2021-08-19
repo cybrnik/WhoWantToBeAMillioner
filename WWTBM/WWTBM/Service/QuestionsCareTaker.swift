@@ -1,33 +1,33 @@
 //
-//  ResultsCareTaker.swift
+//  QuestionsCareTaker.swift
 //  WWTBM
 //
-//  Created by Nikita on 12.08.2021.
+//  Created by Nikita on 17.08.2021.
 //
 
 import Foundation
 
-class ResultsCareTaker {
+class QuestionsCareTaker {
     private let encoder = JSONEncoder()
     private let decoder = JSONDecoder()
     
-    private let key = "recordsOfResultss"
+    private let key = "questions"
     
-    func save(results: [Result]) {
+    func save(questions: [Question]) {
         do {
-            let data = try self.encoder.encode(results)
+            let data = try self.encoder.encode(questions)
             UserDefaults.standard.set(data, forKey: key)
         } catch {
             print(error)
         }
     }
     
-    func retrieveRecords() -> [Result] {
+    func retrieveRecords() -> [Question] {
         guard let data = UserDefaults.standard.data(forKey: key) else {
             return []
         }
         do {
-            return try self.decoder.decode([Result].self, from: data)
+            return try self.decoder.decode([Question].self, from: data)
         } catch {
             print(error)
             return []
