@@ -27,7 +27,7 @@ extension TableOfResultsViewController: UITableViewDelegate, UITableViewDataSour
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = self.myTableView.dequeueReusableCell(withIdentifier: "TableViewCell", for: indexPath) as! TableViewCell
-        cell.configure(COQ: results[indexPath.row].countOfQuestions, COA: results[indexPath.row].coutOfCorrectAnswers, Time: results[indexPath.row].timeOfGame)
+        cell.configure(COQ: results[indexPath.row].countOfQuestions, COA: results[indexPath.row].countOfCorrectAnswers, Time: results[indexPath.row].timeOfGame)
         return cell
     }
     

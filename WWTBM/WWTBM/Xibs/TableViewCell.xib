@@ -52,10 +52,10 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GKX-0K-Fu3">
-                        <rect key="frame" x="75" y="43" width="36" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="000 Секунд" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GKX-0K-Fu3">
+                        <rect key="frame" x="75" y="43" width="110" height="21"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="36" id="taz-9w-y1O"/>
+                            <constraint firstAttribute="width" constant="110" id="taz-9w-y1O"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
@@ -83,7 +83,7 @@
                     <constraint firstItem="5vo-db-GfC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="43" id="g4N-SO-Eoq"/>
                     <constraint firstItem="GKX-0K-Fu3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="43" id="ge9-Hc-Qni"/>
                     <constraint firstItem="YdQ-hM-Y75" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="ilD-hF-gsm"/>
-                    <constraint firstAttribute="trailing" secondItem="GKX-0K-Fu3" secondAttribute="trailing" constant="209" id="kkS-DC-fmL"/>
+                    <constraint firstAttribute="trailing" secondItem="GKX-0K-Fu3" secondAttribute="trailing" constant="135" id="kkS-DC-fmL"/>
                     <constraint firstItem="oKn-JB-wHi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="187" id="mQF-iI-5Md"/>
                     <constraint firstItem="IfI-Ph-WL3" firstAttribute="baseline" secondItem="ZpT-P1-Emf" secondAttribute="baseline" id="n2a-U9-xoC"/>
                     <constraint firstItem="5vo-db-GfC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="ndI-Gb-ZoZ"/>

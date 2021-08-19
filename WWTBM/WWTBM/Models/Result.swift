@@ -8,12 +8,12 @@
 import Foundation
 
 class Result: Codable {
-    init(coutOfCorrectAnswers: Int, countOfQuestions: Int, timeOfGame: Int) {
-        self.coutOfCorrectAnswers = coutOfCorrectAnswers
+    init(countOfCorrectAnswers: Int, countOfQuestions: Int, timeOfGame: Int) {
+        self.countOfCorrectAnswers = countOfCorrectAnswers
         self.countOfQuestions = countOfQuestions
         self.timeOfGame = timeOfGame
     }
-    var coutOfCorrectAnswers = 0
+    var countOfCorrectAnswers = 0
     var countOfQuestions = 0
     var timeOfGame = 0
 }
